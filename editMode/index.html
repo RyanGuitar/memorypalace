@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Edit Mode</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.hide {
+  display:none;
+}
+button {
+  font-size: 2em;
+  padding: 10px;
+}
+img {
+  width:10vw;
+  height:10vw;
+}
+.fade {
+  visibility:hidden;
+}
+body {
+  overflow: hidden;
+  position:fixed;
+  background-image: url('../background.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+</style>
+</head>
+<body>
+  <button><a href="../index.html">Back</a></button>
+  <button id="clearStorage">clear</button>
+  <button class="num">0</button>
+  <button class="num">1</button>
+  <button class="num">2</button>
+  <button class="num">3</button>
+  <button class="num">4</button>
+  <button class="num">5</button>
+  <button class="num">6</button>
+  <button class="num">7</button>
+  <button class="num">8</button>
+  <button class="num">9</button>
+  <button id='move'>move</button>
+  <button id="resize">resize</button>
+  <button id="rotate">rotate</button>
+  <button id="reset">reset</button>
+
+
+<div id="filtered"></div>
+<div id="imageEdit"></div>
+
+<script type="module" src="main.js" async></script>
+
+</body>
+</html>
